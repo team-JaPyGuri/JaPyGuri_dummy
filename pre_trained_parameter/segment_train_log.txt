@@ -1,0 +1,201 @@
+Namespace(num_classes=1, resume=None, data='./Data/Qupath2/patch', mask_dir='./Data/Qupath2/mask', workers=4, epochs=100, batch_size=1, lr=0.001, seed=42, val_freq=1, print_freq=1000, print_confusion_mat=False, result='noise_SSL_finetune/20241126120111', tag=None)
+[0/100]  loss: 1.15283  Dice score: 0.08860  lr_f: 0.00100
+*Validation 0  loss: 1.08905  Dice score: 0.09459  time: 2024.11.26.12:01:17
+[1/100]  loss: 1.05392  Dice score: 0.14376  lr_f: 0.00098
+*Validation 1  loss: 0.92589  Dice score: 0.23861  time: 2024.11.26.12:01:21
+[2/100]  loss: 1.05542  Dice score: 0.14706  lr_f: 0.00090
+*Validation 2  loss: 1.10114  Dice score: 0.11473  time: 2024.11.26.12:01:25
+[3/100]  loss: 0.99814  Dice score: 0.19059  lr_f: 0.00079
+*Validation 3  loss: 1.12866  Dice score: 0.14867  time: 2024.11.26.12:01:30
+[4/100]  loss: 1.00397  Dice score: 0.20005  lr_f: 0.00065
+*Validation 4  loss: 1.05997  Dice score: 0.16345  time: 2024.11.26.12:01:34
+[5/100]  loss: 0.92761  Dice score: 0.24326  lr_f: 0.00050
+*Validation 5  loss: 0.98347  Dice score: 0.21008  time: 2024.11.26.12:01:38
+[6/100]  loss: 0.82520  Dice score: 0.32772  lr_f: 0.00035
+*Validation 6  loss: 0.91536  Dice score: 0.26499  time: 2024.11.26.12:01:42
+[7/100]  loss: 0.75874  Dice score: 0.38311  lr_f: 0.00021
+*Validation 7  loss: 0.75685  Dice score: 0.38005  time: 2024.11.26.12:01:46
+[8/100]  loss: 0.73101  Dice score: 0.40944  lr_f: 0.00010
+*Validation 8  loss: 0.80424  Dice score: 0.35881  time: 2024.11.26.12:01:50
+[9/100]  loss: 0.70258  Dice score: 0.43592  lr_f: 2e-05
+*Validation 9  loss: 0.87541  Dice score: 0.29600  time: 2024.11.26.12:01:54
+[10/100]  loss: 0.78793  Dice score: 0.38275  lr_f: 0.00100
+*Validation 10  loss: 0.91938  Dice score: 0.29312  time: 2024.11.26.12:01:58
+[11/100]  loss: 0.84819  Dice score: 0.33046  lr_f: 0.00099
+*Validation 11  loss: 0.85151  Dice score: 0.33237  time: 2024.11.26.12:02:02
+[12/100]  loss: 0.81517  Dice score: 0.36831  lr_f: 0.00098
+*Validation 12  loss: 0.85491  Dice score: 0.32173  time: 2024.11.26.12:02:06
+[13/100]  loss: 0.74693  Dice score: 0.41528  lr_f: 0.00095
+*Validation 13  loss: 0.85169  Dice score: 0.33741  time: 2024.11.26.12:02:10
+[14/100]  loss: 0.79693  Dice score: 0.38441  lr_f: 0.00090
+*Validation 14  loss: 0.77242  Dice score: 0.37346  time: 2024.11.26.12:02:14
+[15/100]  loss: 0.77729  Dice score: 0.38527  lr_f: 0.00085
+*Validation 15  loss: 0.88215  Dice score: 0.32125  time: 2024.11.26.12:02:18
+[16/100]  loss: 0.74786  Dice score: 0.42053  lr_f: 0.00079
+*Validation 16  loss: 0.75941  Dice score: 0.39329  time: 2024.11.26.12:02:22
+[17/100]  loss: 0.69221  Dice score: 0.46440  lr_f: 0.00073
+*Validation 17  loss: 0.67109  Dice score: 0.47514  time: 2024.11.26.12:02:26
+[18/100]  loss: 0.68128  Dice score: 0.46619  lr_f: 0.00065
+*Validation 18  loss: 0.79281  Dice score: 0.38632  time: 2024.11.26.12:02:30
+[19/100]  loss: 0.62816  Dice score: 0.51347  lr_f: 0.00058
+*Validation 19  loss: 0.70911  Dice score: 0.44696  time: 2024.11.26.12:02:35
+[20/100]  loss: 0.63950  Dice score: 0.49968  lr_f: 0.00050
+*Validation 20  loss: 0.75483  Dice score: 0.41187  time: 2024.11.26.12:02:38
+[21/100]  loss: 0.62938  Dice score: 0.50822  lr_f: 0.00042
+*Validation 21  loss: 0.86737  Dice score: 0.34905  time: 2024.11.26.12:02:42
+[22/100]  loss: 0.60633  Dice score: 0.52801  lr_f: 0.00035
+*Validation 22  loss: 0.68916  Dice score: 0.46614  time: 2024.11.26.12:02:46
+[23/100]  loss: 0.58185  Dice score: 0.54529  lr_f: 0.00027
+*Validation 23  loss: 0.68409  Dice score: 0.47217  time: 2024.11.26.12:02:51
+[24/100]  loss: 0.57630  Dice score: 0.55024  lr_f: 0.00021
+*Validation 24  loss: 0.74422  Dice score: 0.43981  time: 2024.11.26.12:02:55
+[25/100]  loss: 0.55214  Dice score: 0.56731  lr_f: 0.00015
+*Validation 25  loss: 0.69801  Dice score: 0.46908  time: 2024.11.26.12:02:58
+[26/100]  loss: 0.53657  Dice score: 0.57777  lr_f: 0.00010
+*Validation 26  loss: 0.71403  Dice score: 0.46098  time: 2024.11.26.12:03:02
+[27/100]  loss: 0.52146  Dice score: 0.59143  lr_f: 5e-05
+*Validation 27  loss: 0.71195  Dice score: 0.46340  time: 2024.11.26.12:03:06
+[28/100]  loss: 0.54391  Dice score: 0.57456  lr_f: 2e-05
+*Validation 28  loss: 0.70164  Dice score: 0.46551  time: 2024.11.26.12:03:10
+[29/100]  loss: 0.54916  Dice score: 0.57637  lr_f: 1e-05
+*Validation 29  loss: 0.68037  Dice score: 0.48683  time: 2024.11.26.12:03:14
+[30/100]  loss: 0.67803  Dice score: 0.48100  lr_f: 0.00100
+*Validation 30  loss: 0.65368  Dice score: 0.48583  time: 2024.11.26.12:03:18
+[31/100]  loss: 0.71896  Dice score: 0.45039  lr_f: 0.00100
+*Validation 31  loss: 0.79498  Dice score: 0.37745  time: 2024.11.26.12:03:22
+[32/100]  loss: 0.69293  Dice score: 0.46826  lr_f: 0.00099
+*Validation 32  loss: 0.70576  Dice score: 0.45434  time: 2024.11.26.12:03:26
+[33/100]  loss: 0.68179  Dice score: 0.46980  lr_f: 0.00099
+*Validation 33  loss: 0.70195  Dice score: 0.44844  time: 2024.11.26.12:03:30
+[34/100]  loss: 0.60426  Dice score: 0.52276  lr_f: 0.00098
+*Validation 34  loss: 0.76648  Dice score: 0.40752  time: 2024.11.26.12:03:34
+[35/100]  loss: 0.66154  Dice score: 0.49764  lr_f: 0.00096
+*Validation 35  loss: 0.76248  Dice score: 0.41078  time: 2024.11.26.12:03:38
+[36/100]  loss: 0.60628  Dice score: 0.52514  lr_f: 0.00095
+*Validation 36  loss: 0.70334  Dice score: 0.44839  time: 2024.11.26.12:03:42
+[37/100]  loss: 0.64815  Dice score: 0.49836  lr_f: 0.00093
+*Validation 37  loss: 0.62972  Dice score: 0.50928  time: 2024.11.26.12:03:46
+[38/100]  loss: 0.59485  Dice score: 0.55024  lr_f: 0.00090
+*Validation 38  loss: 0.72904  Dice score: 0.44194  time: 2024.11.26.12:03:50
+[39/100]  loss: 0.55958  Dice score: 0.56616  lr_f: 0.00088
+*Validation 39  loss: 0.64204  Dice score: 0.50488  time: 2024.11.26.12:03:54
+[40/100]  loss: 0.56090  Dice score: 0.57190  lr_f: 0.00085
+*Validation 40  loss: 0.68484  Dice score: 0.47584  time: 2024.11.26.12:03:58
+[41/100]  loss: 0.56865  Dice score: 0.55559  lr_f: 0.00082
+*Validation 41  loss: 0.73735  Dice score: 0.44143  time: 2024.11.26.12:04:02
+[42/100]  loss: 0.56006  Dice score: 0.58075  lr_f: 0.00079
+*Validation 42  loss: 0.67484  Dice score: 0.48468  time: 2024.11.26.12:04:05
+[43/100]  loss: 0.55502  Dice score: 0.57307  lr_f: 0.00076
+*Validation 43  loss: 0.74753  Dice score: 0.43187  time: 2024.11.26.12:04:09
+[44/100]  loss: 0.53731  Dice score: 0.57318  lr_f: 0.00073
+*Validation 44  loss: 0.64795  Dice score: 0.51100  time: 2024.11.26.12:04:13
+[45/100]  loss: 0.56069  Dice score: 0.56179  lr_f: 0.00069
+*Validation 45  loss: 0.79036  Dice score: 0.40901  time: 2024.11.26.12:04:17
+[46/100]  loss: 0.51252  Dice score: 0.59723  lr_f: 0.00065
+*Validation 46  loss: 0.66524  Dice score: 0.50802  time: 2024.11.26.12:04:21
+[47/100]  loss: 0.55540  Dice score: 0.56701  lr_f: 0.00062
+*Validation 47  loss: 0.62803  Dice score: 0.52597  time: 2024.11.26.12:04:25
+[48/100]  loss: 0.47797  Dice score: 0.62331  lr_f: 0.00058
+*Validation 48  loss: 0.68655  Dice score: 0.47434  time: 2024.11.26.12:04:30
+[49/100]  loss: 0.49769  Dice score: 0.60833  lr_f: 0.00054
+*Validation 49  loss: 0.62815  Dice score: 0.52417  time: 2024.11.26.12:04:34
+[50/100]  loss: 0.48940  Dice score: 0.62384  lr_f: 0.00050
+*Validation 50  loss: 0.60138  Dice score: 0.53662  time: 2024.11.26.12:04:38
+[51/100]  loss: 0.46049  Dice score: 0.63700  lr_f: 0.00046
+*Validation 51  loss: 0.65028  Dice score: 0.50431  time: 2024.11.26.12:04:42
+[52/100]  loss: 0.44876  Dice score: 0.65194  lr_f: 0.00042
+*Validation 52  loss: 0.68821  Dice score: 0.48485  time: 2024.11.26.12:04:46
+[53/100]  loss: 0.44356  Dice score: 0.65984  lr_f: 0.00038
+*Validation 53  loss: 0.63612  Dice score: 0.52518  time: 2024.11.26.12:04:50
+[54/100]  loss: 0.45776  Dice score: 0.64667  lr_f: 0.00035
+*Validation 54  loss: 0.60393  Dice score: 0.54785  time: 2024.11.26.12:04:54
+[55/100]  loss: 0.41285  Dice score: 0.67767  lr_f: 0.00031
+*Validation 55  loss: 0.58482  Dice score: 0.54513  time: 2024.11.26.12:04:58
+[56/100]  loss: 0.41409  Dice score: 0.67401  lr_f: 0.00027
+*Validation 56  loss: 0.62700  Dice score: 0.52986  time: 2024.11.26.12:05:02
+[57/100]  loss: 0.39942  Dice score: 0.68795  lr_f: 0.00024
+*Validation 57  loss: 0.66067  Dice score: 0.50820  time: 2024.11.26.12:05:06
+[58/100]  loss: 0.42917  Dice score: 0.66776  lr_f: 0.00021
+*Validation 58  loss: 0.58103  Dice score: 0.56086  time: 2024.11.26.12:05:10
+[59/100]  loss: 0.44116  Dice score: 0.66060  lr_f: 0.00018
+*Validation 59  loss: 0.57105  Dice score: 0.56929  time: 2024.11.26.12:05:14
+[60/100]  loss: 0.42827  Dice score: 0.66757  lr_f: 0.00015
+*Validation 60  loss: 0.67806  Dice score: 0.48397  time: 2024.11.26.12:05:18
+[61/100]  loss: 0.39015  Dice score: 0.69509  lr_f: 0.00012
+*Validation 61  loss: 0.60034  Dice score: 0.54499  time: 2024.11.26.12:05:22
+[62/100]  loss: 0.37199  Dice score: 0.70655  lr_f: 0.00010
+*Validation 62  loss: 0.55427  Dice score: 0.57983  time: 2024.11.26.12:05:26
+[63/100]  loss: 0.36591  Dice score: 0.71090  lr_f: 7e-05
+*Validation 63  loss: 0.57097  Dice score: 0.56804  time: 2024.11.26.12:05:30
+[64/100]  loss: 0.36338  Dice score: 0.71453  lr_f: 5e-05
+*Validation 64  loss: 0.58393  Dice score: 0.55359  time: 2024.11.26.12:05:34
+[65/100]  loss: 0.37076  Dice score: 0.71003  lr_f: 4e-05
+*Validation 65  loss: 0.63423  Dice score: 0.52315  time: 2024.11.26.12:05:38
+[66/100]  loss: 0.38441  Dice score: 0.69850  lr_f: 2e-05
+*Validation 66  loss: 0.61117  Dice score: 0.53605  time: 2024.11.26.12:05:42
+[67/100]  loss: 0.35369  Dice score: 0.72001  lr_f: 1e-05
+*Validation 67  loss: 0.62781  Dice score: 0.52787  time: 2024.11.26.12:05:46
+[68/100]  loss: 0.36634  Dice score: 0.71005  lr_f: 1e-05
+*Validation 68  loss: 0.61235  Dice score: 0.53904  time: 2024.11.26.12:05:50
+[69/100]  loss: 0.37519  Dice score: 0.70642  lr_f: 1.541333e-06
+*Validation 69  loss: 0.65639  Dice score: 0.50420  time: 2024.11.26.12:05:54
+[70/100]  loss: 0.50749  Dice score: 0.61979  lr_f: 0.00100
+*Validation 70  loss: 0.75198  Dice score: 0.42680  time: 2024.11.26.12:05:58
+[71/100]  loss: 0.51919  Dice score: 0.60247  lr_f: 0.00100
+*Validation 71  loss: 0.59981  Dice score: 0.54618  time: 2024.11.26.12:06:01
+[72/100]  loss: 0.54591  Dice score: 0.58149  lr_f: 0.00100
+*Validation 72  loss: 0.67913  Dice score: 0.48884  time: 2024.11.26.12:06:05
+[73/100]  loss: 0.50671  Dice score: 0.60821  lr_f: 0.00100
+*Validation 73  loss: 0.66298  Dice score: 0.51127  time: 2024.11.26.12:06:09
+[74/100]  loss: 0.48424  Dice score: 0.63111  lr_f: 0.00099
+*Validation 74  loss: 0.65856  Dice score: 0.50747  time: 2024.11.26.12:06:13
+[75/100]  loss: 0.49151  Dice score: 0.62875  lr_f: 0.00099
+*Validation 75  loss: 0.70398  Dice score: 0.48660  time: 2024.11.26.12:06:17
+[76/100]  loss: 0.56219  Dice score: 0.57228  lr_f: 0.00099
+*Validation 76  loss: 0.66108  Dice score: 0.49906  time: 2024.11.26.12:06:21
+[77/100]  loss: 0.52285  Dice score: 0.59599  lr_f: 0.00098
+*Validation 77  loss: 0.75484  Dice score: 0.43510  time: 2024.11.26.12:06:25
+[78/100]  loss: 0.53441  Dice score: 0.60248  lr_f: 0.00098
+*Validation 78  loss: 0.69378  Dice score: 0.48790  time: 2024.11.26.12:06:29
+[79/100]  loss: 0.47712  Dice score: 0.63410  lr_f: 0.00097
+*Validation 79  loss: 0.62540  Dice score: 0.52835  time: 2024.11.26.12:06:32
+[80/100]  loss: 0.53073  Dice score: 0.58773  lr_f: 0.00096
+*Validation 80  loss: 0.80950  Dice score: 0.39770  time: 2024.11.26.12:06:36
+[81/100]  loss: 0.49516  Dice score: 0.61926  lr_f: 0.00095
+*Validation 81  loss: 0.60868  Dice score: 0.53878  time: 2024.11.26.12:06:40
+[82/100]  loss: 0.47588  Dice score: 0.63781  lr_f: 0.00095
+*Validation 82  loss: 0.60935  Dice score: 0.53651  time: 2024.11.26.12:06:44
+[83/100]  loss: 0.46449  Dice score: 0.64393  lr_f: 0.00094
+*Validation 83  loss: 0.64856  Dice score: 0.51236  time: 2024.11.26.12:06:48
+[84/100]  loss: 0.45611  Dice score: 0.64737  lr_f: 0.00093
+*Validation 84  loss: 0.58310  Dice score: 0.56875  time: 2024.11.26.12:06:52
+[85/100]  loss: 0.43071  Dice score: 0.66580  lr_f: 0.00092
+*Validation 85  loss: 0.60475  Dice score: 0.54550  time: 2024.11.26.12:06:56
+[86/100]  loss: 0.47778  Dice score: 0.63010  lr_f: 0.00090
+*Validation 86  loss: 0.59463  Dice score: 0.55200  time: 2024.11.26.12:07:00
+[87/100]  loss: 0.46390  Dice score: 0.65069  lr_f: 0.00089
+*Validation 87  loss: 0.62888  Dice score: 0.51486  time: 2024.11.26.12:07:03
+[88/100]  loss: 0.40925  Dice score: 0.68357  lr_f: 0.00088
+*Validation 88  loss: 0.53915  Dice score: 0.59204  time: 2024.11.26.12:07:07
+[89/100]  loss: 0.38886  Dice score: 0.69578  lr_f: 0.00087
+*Validation 89  loss: 0.54383  Dice score: 0.60016  time: 2024.11.26.12:07:11
+[90/100]  loss: 0.38728  Dice score: 0.70777  lr_f: 0.00085
+*Validation 90  loss: 0.58445  Dice score: 0.56833  time: 2024.11.26.12:07:15
+[91/100]  loss: 0.38246  Dice score: 0.70957  lr_f: 0.00084
+*Validation 91  loss: 0.57620  Dice score: 0.56302  time: 2024.11.26.12:07:19
+[92/100]  loss: 0.39881  Dice score: 0.68976  lr_f: 0.00082
+*Validation 92  loss: 0.71811  Dice score: 0.47330  time: 2024.11.26.12:07:22
+[93/100]  loss: 0.45746  Dice score: 0.64692  lr_f: 0.00081
+*Validation 93  loss: 0.56486  Dice score: 0.58733  time: 2024.11.26.12:07:27
+[94/100]  loss: 0.47846  Dice score: 0.64058  lr_f: 0.00079
+*Validation 94  loss: 0.56938  Dice score: 0.55809  time: 2024.11.26.12:07:31
+[95/100]  loss: 0.39476  Dice score: 0.69170  lr_f: 0.00078
+*Validation 95  loss: 0.61933  Dice score: 0.54785  time: 2024.11.26.12:07:34
+[96/100]  loss: 0.38330  Dice score: 0.69780  lr_f: 0.00076
+*Validation 96  loss: 0.58086  Dice score: 0.55177  time: 2024.11.26.12:07:38
+[97/100]  loss: 0.37021  Dice score: 0.71104  lr_f: 0.00074
+*Validation 97  loss: 0.55989  Dice score: 0.58618  time: 2024.11.26.12:07:42
+[98/100]  loss: 0.39000  Dice score: 0.70377  lr_f: 0.00073
+*Validation 98  loss: 0.60058  Dice score: 0.54218  time: 2024.11.26.12:07:47
+[99/100]  loss: 0.37791  Dice score: 0.71265  lr_f: 0.00071
+*Validation 99  loss: 0.52880  Dice score: 0.60012  time: 2024.11.26.12:07:51
