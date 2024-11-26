@@ -12,8 +12,6 @@ def test_and_save(args, enc, dec,test_image):
     enc.eval()
     dec.eval()
 
-    print(test_image.shape)
-
     device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
     test_image = test_image.to(device)
@@ -21,7 +19,6 @@ def test_and_save(args, enc, dec,test_image):
     # Forward Pass
     latent, size = enc(test_image)  # Feature extraction
     output = dec(latent, size)  # Segmentation prediction
-    print(output.shape)
 
     # output tensor를 이미지로 바꾸고 args.save_path의 경로로 해당 텐서를 이미지로 저장.
     # output tensor는 항상 (1,1,H,W)의 흑백 이미지임. 이 흑백이미지를 지정된 경로에 저장
