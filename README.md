@@ -1,2 +1,1 @@
-# JaPyGuri_dummy
-model for test
+# JaPyGuri-AI
