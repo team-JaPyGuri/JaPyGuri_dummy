@@ -117,7 +117,7 @@ def run(args):
 
     test_image = load_single_image_from_directory(directory_path=args.load_path)
     apply_nail_art_and_save(args, enc, dec, test_image=test_image)
-    # delete_all_files_in_directory(args.load_path)
+    delete_all_files_in_directory(args.load_path)
 
 if __name__ == '__main__':
     # Arguments 설정
